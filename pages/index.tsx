@@ -4,8 +4,11 @@ import { useState, useEffect } from 'react'
 
 const CALENDLY_URL = 'https://calendly.com/agrajchoudhary-social-2024-bhu/30min'
 
-const scrollTo = (id: string) => {
-  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+const scrollToSection = (id: string) => {
+  const el = document.getElementById(id)
+  if (!el) return
+  const top = el.getBoundingClientRect().top + window.scrollY - 80
+  window.scrollTo({ top, behavior: 'smooth' })
 }
 
 const navLinks = [
@@ -236,7 +239,7 @@ export default function Home() {
       >
         <nav className="max-w-6xl mx-auto px-6 md:px-10 flex justify-between items-center py-3" aria-label="Main navigation">
           {/* Logo */}
-          <button onClick={() => scrollTo('cta')} className="hover:opacity-80 transition shrink-0" aria-label="Altovya home">
+          <button onClick={() => scrollToSection('cta')} className="hover:opacity-80 transition shrink-0" aria-label="Altovya home">
             <Image src="/Altovya.png" alt="Altovya" width={120} height={32} priority />
           </button>
 
@@ -245,7 +248,7 @@ export default function Home() {
             {navLinks.map((link) => (
               <button
                 key={link.href}
-                onClick={() => scrollTo(link.href)}
+                onClick={() => scrollToSection(link.href)}
                 className="text-sm text-neutral-muted hover:text-green-primary transition focus-visible:ring-2 focus-visible:ring-green-primary focus-visible:outline-none rounded-sm cursor-pointer bg-transparent border-none"
               >
                 {link.label}
@@ -315,7 +318,7 @@ export default function Home() {
               <button
                 key={link.href}
                 onClick={() => {
-                  scrollTo(link.href)
+                  scrollToSection(link.href)
                   setMobileMenuOpen(false)
                 }}
                 className="w-full text-left text-sm text-neutral-text hover:text-green-primary hover:bg-green-light/50 transition cursor-pointer bg-transparent border-none rounded-sm px-3 py-3 min-h-[48px] focus-visible:ring-2 focus-visible:ring-green-primary focus-visible:outline-none"
@@ -359,7 +362,7 @@ export default function Home() {
             Book a Strategy Session
           </button>
           <button
-            onClick={() => scrollTo('how')}
+            onClick={() => scrollToSection('how')}
             className="border border-green-primary text-green-primary bg-transparent rounded-sm px-6 py-3 text-sm font-medium hover:bg-green-light transition"
           >
             See how it works
@@ -623,7 +626,7 @@ export default function Home() {
                 {footerNavLinks.map((link) => (
                   <li key={link.href}>
                     <button
-                      onClick={() => scrollTo(link.href)}
+                      onClick={() => scrollToSection(link.href)}
                       className="text-green-body text-sm hover:text-white transition cursor-pointer bg-transparent border-none p-0 focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none rounded-sm"
                     >
                       {link.label}
