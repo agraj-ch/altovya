@@ -187,20 +187,9 @@ export default function Home() {
     return () => { document.body.style.overflow = '' }
   }, [mobileMenuOpen])
 
-  useEffect(() => {
-    const script = document.createElement('script')
-    script.src = 'https://assets.calendly.com/assets/external/widget.js'
-    script.async = true
-    document.body.appendChild(script)
-    return () => { document.body.removeChild(script) }
-  }, [])
 
   const openCalendly = () => {
-    if ((window as any).Calendly) {
-      ;(window as any).Calendly.initPopupWidget({ url: CALENDLY_URL })
-    } else {
-      window.open(CALENDLY_URL, '_blank', 'noopener,noreferrer')
-    }
+    window.location.href = CALENDLY_URL
   }
 
   const toggleFaq = (index: number) => {
