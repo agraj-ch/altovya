@@ -198,6 +198,8 @@ export default function Home() {
   const openCalendly = () => {
     if ((window as any).Calendly) {
       ;(window as any).Calendly.initPopupWidget({ url: CALENDLY_URL })
+    } else {
+      window.open(CALENDLY_URL, '_blank', 'noopener,noreferrer')
     }
   }
 
@@ -666,7 +668,6 @@ export default function Home() {
                     hello@altovya.app
                   </a>
                 </li>
-                <li>United States</li>
               </ul>
             </div>
           </div>
