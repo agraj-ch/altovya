@@ -32,8 +32,9 @@ const footerInfoLinks = [
 
 const proofItems = [
   '3+ qualified meetings in 60 days or we work free',
-  'Setup fee refunded if target missed by day 90',
+  '$750 setup fee — fully refunded if target missed by day 90',
   '$300 per confirmed hiring leader meeting',
+  '$500/mo infrastructure maintenance',
 ]
 
 const painCards = [
@@ -137,7 +138,7 @@ const faqs = [
   },
   {
     q: 'How many meetings should I expect?',
-    a: "Our guarantee is 3 qualified meetings with engineering hiring leaders within 60 days of outreach launch. Actual results vary based on your specialisation, target market, and offer strength — but the guarantee means we put our fee at risk. If we miss, you get your setup fee back.",
+    a: "Our guarantee is 3 qualified meetings with engineering hiring leaders within 60 days of outreach launch. Actual results vary based on your specialisation, target market, and offer strength — but the guarantee means we put our fee at risk. If we miss by day 90, you get your full setup fee back.",
   },
   {
     q: 'What types of companies do you target?',
@@ -485,28 +486,28 @@ export default function Home() {
             Or your setup fee back. No negotiation.
           </h2>
           <p className="text-green-body leading-relaxed mb-10 max-w-2xl">
-            We've structured a simple arrangement: you pay a $500 setup fee to get the campaign built.
-            We guarantee 3 qualified meetings within 60 days. If we miss, you get the setup fee back
-            and the first meeting on us anyway. If we hit, you have 3 new engineering hiring leader
-            relationships to evaluate.
+            We've structured a simple arrangement: you pay a $750 setup fee to get the campaign built.
+            We guarantee 3 qualified meetings within 60 days. If we miss by day 90, you get the full
+            setup fee back. If we hit, you have 3 new engineering hiring leader relationships
+            at $300 per meeting — and a predictable pipeline going forward.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               {
-                title: 'Setup fee: $500',
-                body: "Fully refunded if we don't deliver 3 qualified meetings within 60 days of outreach launch.",
+                title: 'Setup fee: $750',
+                body: "Fully refunded if we don't deliver 3 qualified meetings within 60 days of outreach launch. Refund guaranteed by day 90.",
               },
               {
                 title: 'Performance: $300/meeting',
-                body: "You pay only for confirmed, qualified meetings — 30 minutes with a verified decision-maker.",
+                body: "You pay only for confirmed, qualified meetings — 30 minutes with a verified decision-maker. No long-term lock-in.",
               },
               {
-                title: 'Day 60 hard stop',
-                body: "If we miss the 3-meeting target by day 60, the arrangement ends. No chasing, no extensions, no excuses.",
+                title: 'Day 90 full refund',
+                body: "If we miss the 3-meeting target by day 90, you get your full $750 setup fee back. No chasing, no extensions, no excuses.",
               },
               {
-                title: 'First meeting free',
-                body: "On us. Even if we fall short of 3 meetings, we deliver at least one at no additional charge so you're not left with nothing.",
+                title: 'Monthly maintenance: $500/mo',
+                body: "Covers ongoing infrastructure, sending domain health, deliverability monitoring, and campaign optimisation. Starts after the initial 60-day guarantee window.",
               },
             ].map((card, i) => (
               <div key={i} className="bg-green-card border border-green-border rounded-md p-5">

@@ -51,13 +51,20 @@ export default function Terms() {
                 The guarantee summary displayed on our landing page is for informational
                 purposes only; the terms of your signed agreement take precedence.
               </p>
+              <p className="leading-relaxed mt-3">
+                The $750 setup fee is fully refundable if we fail to deliver the guaranteed
+                3 qualified meetings by day 90. The refund excludes any domain registration
+                fees or third-party infrastructure costs incurred on your behalf, as those
+                domains and infrastructure assets remain your property regardless of campaign
+                outcome.
+              </p>
             </section>
 
             <section>
               <h2 className="font-serif text-xl text-neutral-text mb-3">4. Client Responsibilities</h2>
               <p className="leading-relaxed">
-                Clients are responsible for providing accurate information about their service
-                area and specialty mix, reviewing and approving outreach messaging before
+                Clients are responsible for providing accurate information about their
+                specialisation and target markets, reviewing and approving outreach messaging before
                 sequences go live, and completing any required technical setup (such as DNS
                 record configuration) within a reasonable timeframe.
               </p>
