@@ -28,7 +28,7 @@ export default function Privacy() {
               <h2 className="font-serif text-xl text-neutral-text mb-3">1. Introduction</h2>
               <p className="leading-relaxed">
                 Altovya (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) provides
-                outbound outreach services for nursing staffing agencies through the website at
+                outbound outreach services for tech staffing agencies through the website at
                 altovya.app (the &ldquo;Site&rdquo;). This Privacy Policy explains how we collect,
                 use, disclose, and safeguard your personal information when you visit our Site,
                 book a strategy session, or submit a contact form.

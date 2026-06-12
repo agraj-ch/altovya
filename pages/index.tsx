@@ -33,107 +33,115 @@ const footerInfoLinks = [
 const proofItems = [
   '3+ qualified meetings in 60 days or we work free',
   'Setup fee refunded if target missed by day 90',
-  '$300 per confirmed facility meeting',
+  '$300 per confirmed hiring leader meeting',
 ]
 
 const painCards = [
   {
-    title: 'Relationship-driven selling has a ceiling',
-    body: 'Your referral network only reaches so far. The facilities that don\'t already know you? They\'re invisible to your current strategy.',
+    title: 'Referrals are inconsistent by design',
+    body: 'You can\'t schedule a referral. You can\'t forecast one. And you can\'t build a staffing business around hoping your last placement refers you to their new CTO.',
   },
   {
-    title: 'Director of Nursing turnover is brutal',
-    body: 'Every time a DON moves on, your warm contact disappears with them. You\'re back to cold outreach, starting over.',
+    title: 'The founder is the business development team',
+    body: 'When you\'re the one sourcing candidates and closing clients, there\'s no bandwidth left for structured outbound. Growth stalls the moment you stop selling.',
   },
   {
-    title: 'Referrals are unpredictable by design',
-    body: 'You can\'t schedule a referral. You can\'t forecast one. And you can\'t build a business around hope.',
+    title: 'LinkedIn outreach is unpredictable',
+    body: 'You send connection requests, InMails, maybe a follow-up. Some convert, most don\'t. There\'s no system — just scattered activity that might or might not produce a pipeline.',
   },
   {
-    title: 'Facility administrators are hard to reach',
-    body: 'They don\'t attend your webinars. They don\'t respond to cold calls. They barely check their inbox.',
+    title: 'Revenue fluctuates month to month',
+    body: 'One month you place three engineers and revenue looks great. The next month? Silence. Without a predictable pipeline, you\'re always one dry spell away from a cash crunch.',
   },
   {
-    title: 'Geographic expansion is a guessing game',
-    body: 'Which facilities actually have nursing gaps? Which are already over-registered with agencies? You\'re guessing.',
+    title: 'Recruiters are sourcing, not selling',
+    body: 'Your team spends hours on LinkedIn and GitHub finding candidates — time that could be spent on client conversations if the pipeline were already flowing.',
   },
   {
-    title: "You don't have time to build an outreach system",
-    body: 'Between staffing calls, payroll, and keeping clients happy, there\'s no bandwidth left for structured outbound.',
+    title: 'Too dependent on a handful of clients',
+    body: 'When 60% of your revenue comes from two accounts, you don\'t have a business — you have a dependency. One reorg, one hiring freeze, and the math changes overnight.',
   },
 ]
 
 const processSteps = [
   {
     num: '01',
-    title: 'Research & targeting',
-    body: 'We build a vetted list of facilities that match your service area and specialty mix. Every facility is mapped with basic contact infrastructure.',
-    output: 'Vetted facility list with contact mapping',
+    title: 'Hiring signal detection',
+    body: 'We identify companies actively hiring for the roles your agency fills — engineering managers, software engineers, DevOps, data scientists. Every target is vetted for real hiring intent, not scraped from a generic list.',
+    output: 'Vetted target account list with hiring signals',
   },
   {
     num: '02',
     title: 'Decision-maker identification',
-    body: 'We identify the right person at each facility — DON, administrator, or whoever actually makes the staffing decision. Every contact is verified.',
-    output: 'Verified name, title, and email per facility',
+    body: 'We identify the right person at each company — CTO, VP Engineering, Engineering Manager, or Head of Product — whoever actually makes staffing vendor decisions. Every contact is verified.',
+    output: 'Verified name, title, and email per target account',
   },
   {
     num: '03',
-    title: 'Personalized message construction',
-    body: 'We craft a 3-touch email sequence tailored to each facility\'s profile. Your agency name, your value prop, your voice.',
-    output: 'Personalised 3-touch email sequence',
+    title: 'Personalised message construction',
+    body: 'We craft a multi-touch outreach sequence tailored to each company\'s hiring profile. Your agency name, your specialisation, your voice — referencing their open roles and growth stage.',
+    output: 'Personalised multi-touch outreach sequence',
   },
   {
     num: '04',
-    title: 'Controlled outreach delivery',
-    body: 'Outreach goes out on your behalf at a measured pace. We manage deliverability, timing, and compliance so your sender reputation stays clean.',
+    title: 'Multi-channel outreach delivery',
+    body: 'Outreach goes out on your behalf across email and LinkedIn at a measured pace. We manage deliverability, timing, and compliance so your sender reputation stays clean.',
     output: 'Outreach live within 7–10 days of kickoff',
   },
   {
     num: '05',
     title: 'Follow-up & reply handling',
-    body: 'The sequence handles follow-ups automatically. Every reply is flagged and routed to you in real time — no black hole.',
+    body: 'The sequence handles follow-ups automatically. Every reply is flagged and routed to you in real time — no black hole, no missed opportunities.',
     output: 'You see every reply in real time',
   },
   {
     num: '06',
     title: 'Meeting qualification & booking',
-    body: "We qualify each reply to confirm the contact is appropriate and genuinely interested. The final step is a confirmed calendar invite with a decision-maker.",
-    output: 'Confirmed calendar invite with qualified contact',
+    body: 'We qualify each reply to confirm the contact is a genuine hiring decision-maker with real interest. The final step is a confirmed calendar invite.',
+    output: 'Confirmed calendar invite with qualified hiring leader',
   },
 ]
 
 const faqs = [
   {
-    q: 'Why should I trust an agency with no track record?',
-    a: "We're not going to pretend we're a 10-year-old firm with hundreds of testimonials. What we can show you is a specific method — the same steps we walk through for every client — and a contractual guarantee that puts our fee at risk. If we miss the target, you get meetings anyway or your setup fee back. That alignment is what drives the work.",
+    q: 'How is this different from generic lead generation?',
+    a: "Generic lead gen targets anyone with a pulse and a job title. We target engineering hiring leaders at companies that are actively hiring — and we reference their actual open roles, growth signals, and team composition in every message. The difference is the difference between 'spray and pray' and a researched, signal-driven campaign.",
   },
   {
-    q: 'Why do you only work with nursing staffing agencies?',
-    a: "Because the facilities that nursing agencies call on — skilled nursing, assisted living, LTC — have a distinct decision-making structure and a distinct set of needs. A generalist outreach agency won't know a DON from a discharge planner. Specialising means the messaging lands correctly from the first email.",
+    q: 'Why do you only work with tech staffing agencies?',
+    a: "Because tech hiring has a distinct decision-making structure. Engineering managers, CTOs, and VPs of Engineering evaluate staffing vendors differently than how other industries hire. A generalist outreach agency won't know a VP Eng from a product manager. Specialising means the messaging lands correctly from the first touchpoint.",
   },
   {
-    q: 'How do you source and verify facility contacts?',
-    a: "We use a combination of public data sources, facility public records, and verification tooling. Every contact is checked for validity before it enters the sequence. If a facility's main contact line rings into a general lobby, we dig deeper until we find the actual decision-maker.",
+    q: 'How do you find companies that are actively hiring?',
+    a: "We use a combination of hiring signal data — job boards, company career pages, LinkedIn hiring posts, funding announcements, team growth indicators, and technology stack changes. We cross-reference these signals to build a target list of companies with demonstrated hiring intent, not just a list of names scraped from a directory.",
   },
   {
     q: "What exactly counts as a 'qualified' meeting?",
-    a: "A qualified meeting is a confirmed 30-minute conversation with a person who actually makes or directly influences the staffing decision — a DON, an administrator, a contracts director. A receptionist confirming 'yes we need nurses' does not count. A scheduler who screens calls for a DON does not count.",
+    a: "A qualified meeting is a confirmed 30-minute conversation with someone who actually makes or directly influences engineering hiring decisions — a CTO, VP of Engineering, Engineering Manager, or Head of Product. A recruiter screening calls for a hiring manager does not count. An HR coordinator who 'passes things along' does not count.",
+  },
+  {
+    q: 'How personalised is the outreach?',
+    a: "Every message references something specific about the recipient's company — open engineering roles, recent funding, team growth, tech stack, or hiring priorities. This isn't mail merge with a {{first_name}} token. It's researched, relevant context that shows you understand their engineering hiring needs before you ever ask for a meeting.",
   },
   {
     q: 'How much time will this require from me or my team?',
-    a: "The kickoff session takes about 45 minutes. After that, you'll need to review and approve the email sequence once (roughly 30 minutes). Then you're on standby for replies — which land in your inbox as they come in. We handle everything else. Most clients spend less than two hours total in the first two weeks.",
+    a: "The kickoff session takes about 45 minutes. After that, you'll need to review and approve the email sequence once (roughly 30 minutes). Then you're on standby for replies — which land in your inbox as they come in. We handle everything else. Most founders spend less than two hours total in the first two weeks.",
   },
   {
-    q: 'What if cold emails damage our reputation with facilities?',
-    a: "That's a legitimate concern — and it's exactly why we control cadence, personalisation depth, and sender reputation carefully, rather than blasting high volumes. We also exclude facilities you already have a relationship with. The goal is to open doors, not knock them down.",
+    q: 'What if cold outreach damages our reputation with potential clients?',
+    a: "That's a legitimate concern — and it's exactly why we control cadence, personalisation depth, and sender reputation carefully, rather than blasting high volumes. We also exclude companies you already have relationships with. The goal is to open doors with engineering hiring leaders, not burn bridges.",
   },
   {
     q: 'Why not just hire a salesperson instead?',
-    a: "A good sales hire can work. It's also expensive (base salary + commission + overhead), takes months to onboard, and carries turnover risk — especially when the person builds relationships with your facility contacts and then leaves. Outbound email works when a salesperson would: at the decision-making level, with the right message, consistently. At a fraction of the cost and no ongoing liability.",
+    a: "A good sales hire can work. It's also expensive (base salary + commission + overhead), takes months to ramp, and carries turnover risk — especially in a small agency where one person holds all the client relationships. Outbound email works when a salesperson would: at the decision-making level, with the right message, consistently. At a fraction of the cost and with no ongoing liability.",
   },
   {
-    q: 'What types of facilities do you target?',
-    a: "Skilled nursing facilities, assisted living communities, long-term care facilities, and memory care operations. We build the target list during kickoff based on your service area and specialty mix.",
+    q: 'How many meetings should I expect?',
+    a: "Our guarantee is 3 qualified meetings with engineering hiring leaders within 60 days of outreach launch. Actual results vary based on your specialisation, target market, and offer strength — but the guarantee means we put our fee at risk. If we miss, you get your setup fee back.",
+  },
+  {
+    q: 'What types of companies do you target?',
+    a: "Series A through Series C startups and scaleups, typically 20–200 employees, with active engineering hiring needs. The target list is built during kickoff based on your specialisation (software engineers, DevOps, data scientists, product managers) and preferred market.",
   },
   {
     q: 'How long until I see the first meeting booked?',
@@ -144,24 +152,16 @@ const faqs = [
     a: "They come from you. We set up and manage the sending infrastructure so the emails arrive from your agency's domain and look like they came from your team. Your prospect never sees our name.",
   },
   {
-    q: "What if a facility I want excluded is on the list?",
-    a: "That's handled at kickoff. You'll review and approve the full facility list before outreach begins, and you can exclude any facility for any reason. We'll confirm exclusions are reflected in the final targeting.",
+    q: 'What if a company I want excluded is on the list?',
+    a: "That's handled at kickoff. You'll review and approve the full target account list before outreach begins, and you can exclude any company for any reason — existing clients, active conversations, or just personal preference. We'll confirm exclusions are reflected in the final targeting.",
   },
   {
-    q: 'How do you handle replies from facility contacts?',
-    a: "Every inbound reply is forwarded to you immediately — you see the full thread. We handle the qualification logic so you're not reading 'not interested' responses. When a contact shows intent, we brief you so you're prepared for the conversation.",
-  },
-  {
-    q: "What if a facility says they're not interested?",
-    a: "They're marked as such and removed from the sequence. We don't argue, re-pitch, or cycle back. You're left with a clean list of interested, qualified facilities — not a long tail of burned contacts.",
+    q: 'How do you handle replies from hiring leaders?',
+    a: "Every inbound reply is forwarded to you immediately — you see the full thread. We handle the qualification logic so you're not reading 'not interested' responses. When a CTO or engineering manager shows intent, we brief you so you're prepared for the conversation.",
   },
   {
     q: 'Do I need any technical setup on my end?',
     a: "Minimal. We'll need you to confirm your agency's sending domain and add a DNS record. We handle everything from there. If you're unsure what any of that means, we'll walk you through it in minutes.",
-  },
-  {
-    q: 'What happens after the initial 3-meeting guarantee is met?',
-    a: "If we've delivered 3 meetings within 60 days, the guarantee is satisfied and you're in a position to evaluate whether the meetings converted into actual facility relationships. We don't lock clients into ongoing retainers. You can continue on a per-meeting or monthly basis if you're seeing results.",
   },
 ]
 
@@ -208,8 +208,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Altovya — Facility Outreach for Nursing Staffing Agencies</title>
-        <meta name="description" content="Stop waiting for referrals. Start winning facilities on your terms." />
+        <title>Outbound Lead Generation for Tech Staffing Agencies | Altovya</title>
+        <meta name="description" content="We help tech staffing agencies book meetings with CTOs, engineering managers, and hiring leaders using signal-based outbound campaigns." />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -218,7 +218,7 @@ export default function Home() {
               '@type': 'Organization',
               name: 'Altovya',
               url: 'https://altovya.app',
-              description: 'Facility outreach for nursing staffing agencies.',
+              description: 'Outbound lead generation for tech staffing agencies. We book meetings with engineering hiring leaders using hiring-signal-driven campaigns.',
               email: 'hello@altovya.app',
               address: {
                 '@type': 'PostalAddress',
@@ -342,15 +342,16 @@ export default function Home() {
       {/* HERO */}
       <section className="max-w-4xl mx-auto px-10 py-20">
         <p className="text-xs uppercase tracking-widest text-green-primary font-semibold mb-6">
-          Outbound for Nursing Staffing Agencies
+          Outbound for Tech Staffing Agencies
         </p>
         <h1 className="font-serif text-4xl md:text-5xl leading-tight tracking-tight text-neutral-text mb-6">
           Stop waiting for referrals.{' '}
-          <em className="not-italic text-green-primary">Start winning facilities</em>{' '}
+          <em className="not-italic text-green-primary">Start winning engineering hiring leaders</em>{' '}
           on your terms.
         </h1>
         <p className="text-lg text-neutral-muted max-w-xl leading-relaxed mb-10">
-          We build the outreach system that gets your agency in front of facility decision-makers.
+          We help tech staffing agencies generate qualified conversations with CTOs, VPs of Engineering,
+          and engineering managers using hiring-signal-driven outbound campaigns.
           Research, personalisation, delivery, and qualification — handled end to end, with a
           guarantee that puts our fee at risk.
         </p>
@@ -389,7 +390,7 @@ export default function Home() {
           If any of this sounds familiar, your growth is capped.
         </h2>
         <p className="text-neutral-muted leading-relaxed mb-10 max-w-2xl">
-          Most nursing staffing agencies hit a referral ceiling within the first few years.
+          Most founder-owned tech staffing agencies hit a referral ceiling within the first few years.
           The strategies that got you here won't get you further.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -410,7 +411,7 @@ export default function Home() {
           How It Works
         </p>
         <h2 className="font-serif text-3xl md:text-4xl text-neutral-text mb-4 leading-snug">
-          Six steps to a qualified facility meeting.
+          Six steps to a qualified meeting with an engineering hiring leader.
         </h2>
         <p className="text-neutral-muted leading-relaxed mb-14 max-w-2xl">
           No black-box agency process. You know exactly what's happening at every stage,
@@ -450,26 +451,29 @@ export default function Home() {
         </h2>
         <p className="text-neutral-muted leading-relaxed mb-10 max-w-2xl">
           Personalised, researched, and sent from your agency's domain. Every message
-          is reviewed by you before it goes out.
+          references actual hiring signals — open roles, team growth, company stage.
+          Reviewed by you before it goes out.
         </p>
 
         <div className="bg-white border border-neutral-border rounded-md p-6">
           <div className="text-xs text-neutral-muted border-b pb-3 mb-4 space-y-1">
-            <p><span className="font-medium">To:</span> contact@[facilityname].com</p>
-            <p><span className="font-medium">Subject:</span> Quick question about your staffing needs</p>
+            <p><span className="font-medium">To:</span> sarah@[startupname].com</p>
+            <p><span className="font-medium">Subject:</span> Your open engineering roles and team growth</p>
           </div>
           <div className="text-sm text-neutral-muted leading-relaxed space-y-4">
             <p>Hi Sarah,</p>
             <p>
-              I noticed your facility has been growing its Medicare census — congrats.
-              When census rises, per-diem gaps become a real pressure point.
+              I noticed you're hiring across your platform engineering and data teams —
+              four open roles across backend and infrastructure. That's a meaningful
+              growth phase, and hiring at that pace while shipping is no small lift.
             </p>
             <p>
-              We partner with nursing staffing agencies to open doors with facilities
-              like yours, so we understand what DONs at SNFs are facing right now.
+              We partner with tech staffing agencies to help engineering leaders like you
+              keep hiring velocity up without burning out the team. We understand what's
+              different about filling engineering roles at a Series B company moving fast.
             </p>
             <p>
-              Would a 20-minute chat make sense to see if there's a fit? No pressure —
+              Would a 20-minute conversation make sense to see if there's a fit? No pressure —
               just exploring whether a conversation is worth having.
             </p>
             <p>Best,<br />James</p>
@@ -492,8 +496,8 @@ export default function Home() {
           <p className="text-green-body leading-relaxed mb-10 max-w-2xl">
             We've structured a simple arrangement: you pay a $500 setup fee to get the campaign built.
             We guarantee 3 qualified meetings within 60 days. If we miss, you get the setup fee back
-            and the first meeting on us anyway. If we hit, you have 3 new facility relationships
-            to evaluate.
+            and the first meeting on us anyway. If we hit, you have 3 new engineering hiring leader
+            relationships to evaluate.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
@@ -534,8 +538,8 @@ export default function Home() {
           Straight answers.
         </h2>
         <p className="text-neutral-muted leading-relaxed mb-12 max-w-2xl">
-          You've probably been burned before. We don't blame you for being cautious.
-          These are the questions we get asked most in discovery conversations.
+          You've probably been burned by lead gen before. We don't blame you for being cautious.
+          These are the questions we get asked most in conversations with tech staffing founders.
         </p>
 
         <div>
@@ -572,8 +576,8 @@ export default function Home() {
             Let's build your outreach campaign.
           </h2>
           <p className="text-neutral-muted leading-relaxed mb-8">
-            It takes 30 minutes. We'll talk about your service area, your target
-            facilities, and how to structure the campaign so the first meeting is booked
+            It takes 30 minutes. We'll talk about your specialisation, your target
+            companies, and how to structure the campaign so the first meeting is booked
             within 60 days of launch — or your setup fee back.
           </p>
           <button
@@ -601,7 +605,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <Image src="/Altovya.png" alt="Altovya" width={120} height={32} className="brightness-0 invert" />
               <p className="text-green-body text-sm leading-relaxed">
-                Helping nursing staffing agencies build predictable facility acquisition systems.
+                Helping tech staffing agencies build predictable client acquisition systems.
               </p>
               <div className="flex items-center gap-3 mt-1">
                 {/* LinkedIn */}
@@ -672,7 +676,7 @@ export default function Home() {
         <div className="border-t border-green-border">
           <div className="max-w-6xl mx-auto px-6 md:px-10 py-5 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-green-body">
             <span>© {new Date().getFullYear()} Altovya. All rights reserved.</span>
-            <span>Built for predictable facility growth.</span>
+            <span>Built for predictable client acquisition.</span>
           </div>
         </div>
       </footer>

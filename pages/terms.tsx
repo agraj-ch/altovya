@@ -27,9 +27,10 @@ export default function Terms() {
             <section>
               <h2 className="font-serif text-xl text-neutral-text mb-3">1. Services</h2>
               <p className="leading-relaxed">
-                Altovya provides outbound outreach services for nursing staffing agencies. Our
-                services include facility research, decision-maker identification, personalized
-                email outreach, follow-up handling, and meeting qualification and booking.
+                Altovya provides outbound outreach services for tech staffing agencies. Our
+                services include target account research, hiring signal detection, decision-maker
+                identification, personalised email outreach, follow-up handling, and meeting
+                qualification and booking.
               </p>
             </section>
 

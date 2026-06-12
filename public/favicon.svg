@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Umbrella canopy -->
+  <path d="M10 55 C10 30 40 10 50 10 C60 10 90 30 90 55 Z"
+        fill="#2d5c3e" stroke="#2d5c3e" stroke-width="1"/>
+  <!-- Umbrella scallop details -->
+  <path d="M22 55 C22 40 38 32 50 32 C62 32 78 40 78 55"
+        fill="none" stroke="#1a2e22" stroke-width="1.5" opacity="0.5"/>
+  <path d="M36 55 C36 46 43 41 50 41 C57 41 64 46 64 55"
+        fill="none" stroke="#1a2e22" stroke-width="1.5" opacity="0.4"/>
+  <!-- Center pole -->
+  <rect x="47" y="53" width="6" height="35" rx="1.5" fill="#2d5c3e"/>
+  <!-- Handle curve -->
+  <path d="M47 85 C47 85 40 92 40 92 C38 94 40 96 42 96 C42 96 50 92 53 88"
+        fill="none" stroke="#2d5c3e" stroke-width="4" stroke-linecap="round"/>
+</svg>

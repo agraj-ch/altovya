@@ -13,9 +13,10 @@ export default function Document() {
         />
 
         {/* Favicon */}
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/Altovya.png" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon-192x192.png" />
 
         {/* Canonical */}
         <link rel="canonical" href="https://altovya.app" />
@@ -23,8 +24,8 @@ export default function Document() {
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://altovya.app" />
-        <meta property="og:title" content="Altovya — Facility Outreach for Nursing Staffing Agencies" />
-        <meta property="og:description" content="Stop waiting for referrals. Start winning facilities on your terms." />
+        <meta property="og:title" content="Outbound Lead Generation for Tech Staffing Agencies | Altovya" />
+        <meta property="og:description" content="We help tech staffing agencies book meetings with CTOs, engineering managers, and hiring leaders using signal-based outbound campaigns." />
         <meta property="og:image" content="https://altovya.app/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -34,8 +35,8 @@ export default function Document() {
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://altovya.app" />
-        <meta name="twitter:title" content="Altovya — Facility Outreach for Nursing Staffing Agencies" />
-        <meta name="twitter:description" content="Stop waiting for referrals. Start winning facilities on your terms." />
+        <meta name="twitter:title" content="Outbound Lead Generation for Tech Staffing Agencies | Altovya" />
+        <meta name="twitter:description" content="We help tech staffing agencies book meetings with CTOs, engineering managers, and hiring leaders using signal-based outbound campaigns." />
         <meta name="twitter:image" content="https://altovya.app/og-image.png" />
         <meta name="twitter:site" content="@altovya" />
 
